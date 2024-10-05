@@ -53,11 +53,21 @@
     font-weight: 800;
     font-style: normal;
   }
+
+  .titulop {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+    margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
   
   .barlow-condensed-black {
     font-family: "Barlow Condensed", sans-serif;
     font-weight: 900;
     font-style: normal;
+
   }
   
   .barlow-condensed-thin-italic {
@@ -132,10 +142,20 @@
 html, body{
     height: 100%;
     color: rgb(0, 0, 0);
+    margin: auto;
+    padding: auto;
 }
 
 .bgImage{
-  
+  background-image: url('./imgs/bgImage.jpg'); /* Caminho da imagem */
+  background-size: cover; /* Faz a imagem cobrir toda a div */
+  background-position: center; /* Centraliza a imagem */
+  height: 500px; /* Define uma altura para a div */
+  width: 100%; /* Preenche a largura do contêiner */
+  display: flex; /* Usa flexbox para centralizar o conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-top: -25px;
 }
 
 /* .video-background{
@@ -236,4 +256,25 @@ header h1 {
 .navbar-nav .nav-linkCC:hover {
   color: #8a2be2;
   filter: brightness(1.2);
+}
+
+.imgAjust {
+  border-top: 1px solid #000000;
+  margin: 0px;
+  margin-top: -100px;
+  padding: 0;
+  width: 100%;  /* Preenche a largura do contêiner */
+  height: 100%; /* Mantém a proporção da imagem */
+  background-size: cover;
+
+}
+
+.imgUp{
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px #868686, 0px 0px 10px #818181, 0px 0px 10px #868686,0px 0px 20px #868686;
+  font-size: 100px;
+  text-align: center;
+  margin-top: -25px;
+  padding: 10px;
+
 }
