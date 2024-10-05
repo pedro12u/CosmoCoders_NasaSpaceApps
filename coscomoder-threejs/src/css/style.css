@@ -1,0 +1,521 @@
+* {
+  border: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Fontes Titulos */
+
+.barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-condensed-extralight {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-condensed-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-condensed-medium {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-condensed-semibold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-condensed-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-condensed-extrabold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.titulop {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 20px; /* Ajuste conforme necessário */
+}
+
+.barlow-condensed-black {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-condensed-extralight-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-condensed-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-condensed-regular-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-condensed-medium-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-condensed-semibold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-condensed-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-condensed-extrabold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-condensed-black-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* Fontes Titulos */
+
+/* Fontes Gerais */
+
+.open-sans-font {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 370;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Fontes Gerais */
+
+html,
+body {
+  height: 100%;
+  color: rgb(0, 0, 0);
+  margin: auto;
+  padding: auto;
+}
+
+.bgImage {
+  background-image: url("../imgs/bgImage.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -25px;
+  flex-direction: column;
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+}
+
+video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+*/ .content {
+  position: relative;
+  z-index: 1;
+  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 20px;
+}
+
+.logoHeader {
+  width: 120px;
+  height: auto;
+  margin-right: 530px;
+  margin-top: -200px;
+  margin-bottom: -75px;
+}
+
+.buttonnav {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 45px;
+  width: 300px;
+  border-style: none;
+}
+
+.buttonnav:hover {
+  background-color: rgb(231, 18, 18);
+}
+
+.buttonnav a {
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.4s;
+  text-shadow: 0px 0px 5px #868686, 0px 0px 10px #818181, 0px 0px 10px #868686,
+    0px 0px 20px #868686;
+}
+
+.logo-text {
+  color: #940000;
+  font-size: 1.5rem;
+}
+
+.navbar-nav .nav-linkCC {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-linkCC:hover {
+  color: #8a2be2;
+  filter: brightness(1.2);
+}
+
+.imgAjust {
+  border-top: 1px solid #000000;
+  margin: 0px;
+  margin-top: -100px;
+  padding: 0;
+  width: 100%; /* Preenche a largura do contêiner */
+  height: 100%; /* Mantém a proporção da imagem */
+  background-size: cover;
+}
+
+.imgUp {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px #868686, 0px 0px 10px #818181, 0px 0px 10px #868686,
+    0px 0px 20px #868686;
+  font-size: 200px;
+  text-align: center;
+  margin-top: -25px;
+  padding: 10px;
+}
+
+.imgUp2 {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 3px #000000, 0px 0px 10px #3a3a3a, 0px 0px 3px #3a3a3a,
+    0px 0px 3px #3a3a3a;
+  font-size: 25px;
+  text-align: center;
+  margin-top: -55px;
+  padding: 10px;
+  letter-spacing: 20px;
+}
+
+.divFollow {
+  position: fixed;
+}
+
+.sidebar {
+  margin-top: -24px;
+  background-color: #e4e3e3;
+  color: #ffffff;
+  padding: 30px;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  overflow-y: auto;
+}
+
+.sidebar .nav-link {
+  color: #4a4949;
+  font-weight: 500;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+.sidebar .nav-link:hover {
+  background-color: #7d7d7d;
+}
+
+.teste34 {
+  box-shadow: rgba(130, 127, 127, 0.519) 2.4px 2.4px 3.2px;
+}
+
+.bgImgExp {
+  background-image: url("../imgs/bgImageBlack.jpeg");
+}
+
+.colorText {
+  color: white;
+}
+
+.container-cient {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.body1 {
+  margin-top: 10px;
+  background-color: white;
+}
+
+.titulo1 {
+  font-weight: 100px;
+  margin-top: -15px;
+  margin-left: 50px;
+  font-size: 35px;
+  margin-bottom: 50px;
+}
+
+.imgposition {
+  max-width: 100%;
+  height: auto;
+  margin-left: 50px;
+  float: left;
+}
+
+.texto1 {
+  margin-top: 40px;
+  font-family: "Arial", sans-serif;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  padding: 15px;
+}
+
+.espaço {
+  padding-top: 10px;
+  background-color: #140e0e;
+  margin-top: -15px;
+  text-align: center;
+  padding-bottom: 5px;
+}
+
+.cort {
+  color: white;
+}
+
+.barra {
+  border: none;
+  height: 5px;
+  background-color: #000;
+  margin: 20px 0;
+  width: 29%;
+  margin-left: 50px;
+  margin-top: 60px;
+}
+
+.barra2 {
+  border: none;
+  height: 5px;
+  background-color: #000;
+  margin: 20px 0;
+  width: 9%;
+  margin-left: 50px;
+  margin-top: 150px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin: 0 auto;
+  gap: 265px;
+}
+
+.imgposition2 {
+  max-width: 100%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.19) 2px 12px 22px, rgba(0, 0, 0, 0.23) 1px 7px 7px;
+}
+
+.bg1 {
+  background-color: #d3d3d3;
+  padding-top: 50px;
+}
+
+.texto2 {
+  margin-top: 40px;
+  font-family: "Arial", sans-serif;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  margin-left: 70px;
+  padding: 15px;
+}
+
+.barra3 {
+  border: none; /* Remove a borda padrão */
+  height: 5px; /* Altura da barra */
+  background-color: #000; /* Cor da barra */
+  margin: 20px 0; /* Margens acima e abaixo da barra */
+  width: 18%; /* Definindo a largura da barra */
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.textofooter {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 3px #f0f0f0, 0px 0px 10px #f6f0f0, 0px 0px 3px #eae3e3,
+    0px 0px 3px #ffffff;
+  font-size: 15px;
+  text-align: left;
+  margin-top: -25px;
+  padding: 10px;
+}
+
+.list {
+  list-style: none;
+}
+
+.footer-text {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 15px; /* Altere este valor para o tamanho desejado */
+  color: white; /* Mantém a cor do texto */
+  margin-top: 10px; /* Espaço acima do parágrafo */
+  margin-bottom: -1px;
+}
+
+.footer-text-up {
+  margin-top: 1px;
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.colorText2 {
+  color: white;
+  margin-left: 47px;
+}
+
+.card {
+  left: 27px;
+  top: 15px;
+  margin-bottom: 40px;
+  box-shadow: rgba(255, 255, 255, 0.215) 0px 54px 55px,
+    rgba(255, 255, 255, 0.215) 0px -12px 30px,
+    rgba(255, 255, 255, 0.215) 0px 4px 6px,
+    rgba(255, 255, 255, 0.215) 0px 12px 13px,
+    rgba(255, 255, 255, 0.215) 0px -3px 5px;
+  width: 300px;
+  height: auto;
+}
+.card-img-top {
+  max-height: 450px;
+  max-width: 450px;
+  object-fit: cover;
+}
+
+.container-cient {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  gap: 15px;
+  padding: 15px;
+}
+
+.card-container {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  height: 350px;
+  padding: 15px;
+  margin: 20px 0;
+  overflow: hidden;
+}
+
+#container-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.navbar {
+  position: relative;
+  z-index: 10;
+}
+
+.destaque-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0;
+}
+
+.texto-destaque {
+  flex: 1;
+  max-width: 500px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.tituloCientistas {
+  font-family: "Barlow Condensed", sans-serif;
+
+  font-weight: 900;
+
+  font-size: 50px;
+
+  font-style: normal;
+
+  text-align: center;
+
+  margin-bottom: 40px;
+}
